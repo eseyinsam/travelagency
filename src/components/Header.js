@@ -7,6 +7,7 @@ import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
+import QuomodoSystems from "../assets/QuomodoSystems.png";
 const useStyles = makeStyles(theme => ({
   root: {
     // backgroundColor: "red"
@@ -32,7 +33,7 @@ const Header = () => {
             color="inherit"
             aria-label="menu"
           >
-            <MenuIcon />
+            <img src={QuomodoSystems} width={120} height={50} />
           </IconButton>
           <Typography variant="h6" className={classes.title}>
             Travel Agency
